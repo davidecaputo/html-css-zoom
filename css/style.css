@@ -1,3 +1,5 @@
+/* general */
+
 :root{
     --black: #000000;
     --white: #ffffff;
@@ -6,4 +8,33 @@
     --color-footer: #222222;
     --green: #4bc800;
     --red: #e10f0d;
+}
+
+body{
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.flex-elements{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* header */
+
+.f-header{
+    flex-direction: row-reverse;
+}
+
+.button{
+    background-color: var(--color-button);
+    border-radius: 6px;
+    padding: 4px;
+    margin-left: 10px;
 }
